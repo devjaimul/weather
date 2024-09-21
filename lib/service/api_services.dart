@@ -18,7 +18,8 @@ class ApiServices {
       }
     } catch (e) {
       print(e.toString());
-      rethrow;
+      throw e.toString();
     }
   }
 }
+

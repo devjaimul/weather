@@ -22,7 +22,7 @@ class HeadingTwo extends StatelessWidget {
 
       style: TextStyle(
         color: color ?? Colors.white,
-        fontSize: fontSize ??  20,
+        fontSize: fontSize ??  22,
         fontWeight: fontWeight?? FontWeight.w500,
         backgroundColor: backGroundColor,
       ),
@@ -49,7 +49,7 @@ class HeadingThree extends StatelessWidget {
       data,
 
       style: TextStyle(
-        color: color ?? Colors.black,
+        color: color ?? Colors.white,
         fontSize: fontSize ??  18,
         fontWeight: fontWeight?? FontWeight.w500,
         backgroundColor: backGroundColor,
